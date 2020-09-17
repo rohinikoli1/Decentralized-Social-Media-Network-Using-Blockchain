@@ -1,0 +1,16 @@
+<div style="text-align: center;">
+    <div style="padding-top: 15px;">
+        <form [formGroup]="search_user" (ngSubmit)="getuser()">
+            <input type="search" placeholder="Serch your friends ... " style="margin-right: 3%; font-size: small; padding-left: 10px;" class="ser" formControlName="Search">
+            <input type="submit" value="Search" style="margin-left: 3%;" placeholder="Search" class="cont"  >
+        </form>    
+    </div>
+    <button id="btn-login" style="width:25%; margin-right: 8%;" class="btn" (click)="clicked()">Friends</button>
+    <button id="btn-login" style="width:25%" class="btn" (click)="requested()">Requested</button>
+    <button id="btn-login" style="width:25%; margin-left: 8%;" class="btn" (click)="pending()">Pending</button>
+    <div>
+         <ul >
+                <li *ngFor="let user of names_list" (click)="myMethod(user)" >{{ user }}</li>
+        </ul>
+    </div>
+</div>

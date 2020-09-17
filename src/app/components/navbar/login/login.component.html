@@ -1,0 +1,17 @@
+<div class="cont" style="height: 600px;">
+    <div class="loginCard" style="width: 96%;">
+      <h2>Log In</h2>
+      <form [formGroup]="login" (ngSubmit)="validate()">
+        <input type="text" placeholder="User Name" formControlName="uName" class="formInput"/>
+        <input type="password" placeholder="Password" formControlName="pass" class="formInput"/>
+        <div>
+          <button class="btn" id="btn-login" style="margin-right: 20px;" (click)="register()"> Sign Up </button>
+          <input type="submit" class="btn" id="btn-login" style="margin-left: 20px;" value="Log In"/>
+        </div>
+        <br>
+        <br>
+        <!--a style="text-align: center; color: blue;" [routerLink]="'/forget'" routerLinkActive="active">Forget password ?</a-->
+        <a style="text-align: center; color: blue;" (click)="forget()" routerLinkActive="active">Forget password ?</a>
+      </form>
+      </div>
+</div>

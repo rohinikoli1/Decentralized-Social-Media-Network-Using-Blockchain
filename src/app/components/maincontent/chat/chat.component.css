@@ -1,0 +1,41 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+}
+.cad{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: lightcoral;
+}
+.message{
+    flex-direction: column;
+    margin: 10px 0;
+}
+.but{
+    background-color: rgb(196, 243, 69);
+    position: absolute;
+    bottom:0;
+    right: 0;
+    height: 6%;
+    width: 6%;
+    padding: 5px;
+}
+.fix{
+    background-color: rgb(196, 243, 69);
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height: 6%;
+    width: 89%;
+    padding: 5px;
+}
+.my{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

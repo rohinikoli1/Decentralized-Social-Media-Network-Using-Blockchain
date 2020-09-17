@@ -1,0 +1,126 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "userName",
+				"type": "string"
+			},
+			{
+				"name": "pass",
+				"type": "string"
+			}
+		],
+		"name": "authenticate",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "userName",
+				"type": "string"
+			},
+			{
+				"name": "que",
+				"type": "string"
+			},
+			{
+				"name": "ans",
+				"type": "string"
+			}
+		],
+		"name": "forgrtPass",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "id",
+				"type": "address"
+			},
+			{
+				"name": "userName",
+				"type": "string"
+			}
+		],
+		"name": "delAuth",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "id",
+				"type": "address"
+			},
+			{
+				"name": "userName",
+				"type": "string"
+			},
+			{
+				"name": "pass",
+				"type": "string"
+			}
+		],
+		"name": "changePass",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "userName",
+				"type": "string"
+			},
+			{
+				"name": "id",
+				"type": "address"
+			},
+			{
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"name": "pass",
+				"type": "string"
+			},
+			{
+				"name": "que",
+				"type": "string"
+			},
+			{
+				"name": "ans",
+				"type": "string"
+			}
+		],
+		"name": "regiter",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

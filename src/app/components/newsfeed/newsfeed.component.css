@@ -1,0 +1,17 @@
+.row{
+    --padding-top: 50px;
+}
+
+.sidebar{
+    --width: 180px;
+    width: 18%;
+}
+
+.main-body-content{
+    width: 60%;
+}
+
+.right-sidebar{
+    --width:300px;
+    width:18%;
+}

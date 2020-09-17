@@ -1,0 +1,13 @@
+<div class="cont" style="height: 600px;">
+    <div class="loginCard" style="width: 96%;">
+      <h2 class="heading">Forget Password</h2>
+      <form [formGroup]="forgetpass" (ngSubmit)="validate()">
+        <input formControlName="userName" type="text" placeholder="Name" class="formInput"/>
+        <input formControlName="que" type="text" placeholder="Question" name="email" class="formInput"/>
+        <input formControlName="ans" type="text" placeholder="Answer" name="password" class="formInput"/>
+        <div  style="display: inline;">
+          <input type="submit" class="btn" value="Validate" id="btn-login" style="margin-right: 20px;"/>
+        </div>
+      </form>
+    </div>
+</div>

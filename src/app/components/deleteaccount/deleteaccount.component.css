@@ -1,0 +1,89 @@
+.cont{
+    width: 25%;
+    height: 30px;
+    --margin-top: 16px;
+    border: none;
+    color: white;
+    background-color:rgb(110, 110, 110);
+    --padding: 15px 32px;
+    --text-align: center;
+    --text-decoration: none;
+    --font-size: 16px;
+    border-radius: 10px;
+    --box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
+    transition: ease-in 0.2s;
+    font-size: small;
+}
+
+.ser{
+    width: 60%;
+    height: 30px;
+    border-radius:10px;
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    --padding: 15px 32px;
+}
+
+.cont:hover{
+    background-color:rgb(50, 50, 50);
+    transition: ease-in 0.2s;
+}
+.loginCard{
+height: 600px;
+margin: auto;
+margin-top: 20px;
+text-align: center;
+padding: 35px 30px;
+}
+
+.formInput{
+margin: auto;
+margin-top: 16px;
+display: block;
+width: 60%;
+height: 40px;
+border-radius:10px;
+background:#ecf0f1;
+border: #ccc 1px solid;
+padding: 8px;
+font-size:1em;
+}
+
+.btn{
+height: 30px;
+width: 28%;
+margin-top: 16px;
+border: none;
+color: white;
+--padding: 15px 32px;
+--text-align: center;
+text-decoration: none;
+font-size: small;
+border-radius: 10px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
+transition: ease-in 0.2s;
+}
+
+#btn-signUp{
+    background-color: rgb(91, 237, 240);
+}
+
+#btn-signUp:hover{
+    background-color:#4A4865;
+    transition: ease-in 0.2s;
+}
+
+#btn-login{
+    background-color:rgb(110, 110, 110);
+    width: 25%;
+    height: 40px;
+}
+
+#btn-login:hover{
+    background-color:rgb(50, 50, 50);
+    transition: ease-in 0.2s;
+}
+
+h2{
+    height: 2em;
+}

@@ -1,0 +1,18 @@
+<div class="cont" style="height: 600px;">
+    <div class="loginCard" style="width: 96%;">
+      <h2 class="heading">Register</h2>
+        <form [formGroup]="registration" (ngSubmit)="validate()">
+          <input formControlName="name" type="text" placeholder="Name" class="formInput" required/>
+          <input formControlName="userName" type="text" placeholder="Username" class="formInput"  minlength="8" maxlength="12" required/>
+          <input formControlName="pass" type="password" placeholder="Password" class="formInput" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required />
+          <input formControlName="cpass" type="password" placeholder="Confirm Password" class="formInput" required/>
+          <input formControlName="que" type="text" placeholder="Security Question" class="formInput" required />
+          <input formControlName="ans" type="text" placeholder="Answer" class="formInput" required/>
+          <div>
+            <label for="upload-photo" style="margin-right: 2%; margin-top: 8px; height: 50px;" id="btn-login" class="btn">Upload photo</label>
+            <input type="submit" class="btn" id="btn-login" style="margin-left: 2%;"/>
+          </div>
+          <input formControlName="photo" type="file" style="visibility: hidden;" accept="image/png, image/jpeg, image/svg" (change)="setImg($event.target.files)" id="upload-photo" class=""/>
+        </form>
+    </div>
+</div>

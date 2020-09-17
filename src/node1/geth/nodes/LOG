@@ -1,0 +1,8 @@
+=============== Mar 3, 2020 (IST) ===============
+20:54:23.481342 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:54:23.533434 db@open opening
+20:54:23.535499 version@stat F·[] S·0B[] Sc·[]
+20:54:23.549387 db@janitor F·2 G·0
+20:54:23.549419 db@open done T·15.896588ms
+20:55:53.653808 db@close closing
+20:55:53.654227 db@close done T·394.12µs

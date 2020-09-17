@@ -1,0 +1,66 @@
+.dapp-nav{
+    height: 42px !important;
+    background-color: rgba(255,255,255,0.85);
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.my{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.dapp-nav a{
+    color:black;
+}
+/*
+.top-form input[type="text"]{
+    width: 393px;
+    height: 28px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+.top-form input[type="text"]:focus{
+    border-color: transparent;
+}
+
+.top-form button{
+    width: 46px;
+    height: 28px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #f5f6f7;
+    padding: 0;
+}
+
+.top-form button{
+    color: #27282c;
+}
+
+.border-right{
+    border-right: 0.5px solid #15233f;
+    margin: 12px;
+}
+
+.collapse ul li a i{
+    color: #15233f;
+}*/
+
+.wrapper{
+    width: 1012px;
+    margin: 0 auto;
+}
+/*
+@media (max-width: 994px){
+    .top-form input[type="text"]{
+        width: auto;
+    }
+    .dapp-nav, .wrapper{
+        min-width: 994px;
+    }
+}*/
